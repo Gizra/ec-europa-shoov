@@ -65,7 +65,7 @@ describe('Live testing', function() {
       .call(done);
   });
 
-  it('should show the tour page',function(done) {
+  it('should show the news page',function(done) {
     client
       .url(baseUrl + '/news/2015/07/20150713_en.htm')
       .webdrivercss(testName, {
